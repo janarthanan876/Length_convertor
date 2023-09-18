@@ -1,0 +1,47 @@
+body{    background-color: bisque;
+    margin: 0;
+}
+#wrapper{
+    height:400px;
+    width:350px;
+    margin:200px auto;
+    background-color:#1f2029;
+    border-radius:10px;
+    padding:30px;
+}
+input{
+   
+    border-radius: 5px;
+    border: 2px solid black ;
+    margin-top:30px;
+    height:2em;
+    width:250px;
+    padding-left:10px;
+}
+#wrapper div,#wrapper h1{
+    display:flex;
+    justify-content: center;
+    
+}
+button{
+    margin-top: 30px;
+margin-right: 20px;
+background-color: azure;
+border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: yellow;
+
+}
+button:focus{
+background-color: red;
+}
+h1{
+    color: blue;
+}
+#result{
+    color:white;
+    margin-top:20px;
+    font-size:32px;
+}
